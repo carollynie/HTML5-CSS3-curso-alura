@@ -1,0 +1,28 @@
+body{
+    background:#CCCCCC
+}
+
+#banner{
+    width: 100%
+
+}
+
+h1{
+    text-align: center;
+    border: 10px solid #91700E;
+    height: 100px;
+    margin:80px;
+    padding-top: 20px;
+}
+
+p{
+    text-align: center
+}
+
+#missao{
+    font-size: 20px 
+}
+
+em strong{
+    color:red
+}
