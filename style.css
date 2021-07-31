@@ -1,5 +1,14 @@
 body{
-    background:#CCCCCC
+    background:#FFFFFF
+}
+
+.titulo-principal{
+   padding-left: 20px; 
+}
+
+.principal{
+    background: #CCCCCC;
+    padding: 30px
 }
 
 #banner{
@@ -7,12 +16,8 @@ body{
 
 }
 
-h1{
+.titulo-centralizado{
     text-align: center;
-    border: 10px solid #91700E;
-    height: 100px;
-    margin:80px;
-    padding-top: 20px;
 }
 
 p{
@@ -24,5 +29,26 @@ p{
 }
 
 em strong{
-    color:red
+    color: #FF0810
+}
+
+.itens {
+    font-style: italic;
+}
+
+.beneficios{
+    background-color: white;
+    padding: 20px
+}
+
+
+ul{
+    display: inline-block; /*ocupa o tamanho do seu conteudo, mas permite mudanças em largura e espaçamento*/
+    vertical-align: top;  /* o css alinha automaticamente pela parte de baixo */
+    width: 20%;
+    margin-right: 15%;
+}
+
+#banner2 {
+    width: 50%;
 }
