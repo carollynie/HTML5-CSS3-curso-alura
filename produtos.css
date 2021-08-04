@@ -1,0 +1,65 @@
+header {
+    background-color: #BBBBBB;
+    margin: 20px 0
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto /*centralizar*/
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0 /*fica na posição 0 a direita da página, por causa do absolute*/
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color:#000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px; /*espaçamento interno para os lados/para cima*/
+    box-sizing: border-box; /*os 30% são definitivos, sempre a largura*/
+    /* border-color: ;
+    border-width: 2px;
+    border-style: solid; */
+    border: 2px solid #000000;
+    border-radius: 15px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold
+}
+
+.produto-descricao {
+    font-size: 20px
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
