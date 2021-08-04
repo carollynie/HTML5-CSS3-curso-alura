@@ -54,6 +54,18 @@ nav a {
     border-radius: 15px;
 }
 
+.produtos li:hover {
+    border-color:#D46D4C
+}
+
+.produtos li:active { /*Quando clicar, mudará o comportamento*/
+    border-color: #0e5807
+}
+
+.produtos li:hover h2 { /*Quando o mouse estiver por cima do li produtos mudará h2*/
+    font-size: 35px
+}
+
 .produtos h2 {
     font-size: 30px;
     font-weight: bold
