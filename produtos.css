@@ -25,7 +25,12 @@ nav a {
     color:#000000;
     font-weight: bold;
     font-size: 22px;
-    text-decoration: none;
+    text-decoration: none; /* retira o sublinhado padrão nas palavras */
+}
+
+ nav a:hover { /*quando os mouses estiverem por cima do menu de navegação */
+    color:#D46D4C;
+    text-decoration:underline
 }
 
 .produtos{
