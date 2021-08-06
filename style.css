@@ -1,54 +1,117 @@
-body{
-    background:#FFFFFF;
+header {
+    background-color: #BBBBBB;
 }
 
-.titulo-principal{
-   padding-left: 20px; 
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto /*centralizar*/
 }
 
-.principal{
-    background: #CCCCCC;
-    padding: 30px
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0 /*fica na posição 0 a direita da página, por causa do absolute*/
 }
 
-#banner{
-    width: 100%
-
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
 }
 
-.titulo-centralizado{
+nav a {
+    text-transform: uppercase;
+    color:#000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none; /* retira o sublinhado padrão nas palavras */
+}
+
+ nav a:hover { /*quando os mouses estiverem por cima do menu de navegação */
+    color:#D46D4C;
+    text-decoration:underline
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
     text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px; /*espaçamento interno para os lados/para cima*/
+    box-sizing: border-box; /*os 30% são definitivos, sempre a largura*/
+    /* border-color: ;
+    border-width: 2px;
+    border-style: solid; */
+    border: 2px solid #000000;
+    border-radius: 15px;
 }
 
-p{
-    text-align: center
+.produtos li:hover {
+    border-color:#D46D4C
 }
 
-#missao{
-    font-size: 20px 
+.produtos li:active { /*Quando clicar, mudará o comportamento*/
+    border-color: #0e5807
 }
 
-em strong{
-    color: #FF0810
+.produtos li:hover h2 { /*Quando o mouse estiver por cima do li produtos mudará h2*/
+    font-size: 35px
 }
 
-.itens {
-    font-style: italic;
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold
 }
 
-.beneficios{
-    background-color: white;
-    padding: 20px
+.produto-descricao {
+    font-size: 20px
 }
 
-
-ul{
-    display: inline-block; /*ocupa o tamanho do seu conteudo, mas permite mudanças em largura e espaçamento*/
-    vertical-align: top;  /* o css alinha automaticamente pela parte de baixo */
-    width: 20%;
-    margin-right: 15%;
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
-#banner2 {
+footer {
+    text-align: center;
+    background: url("./imagens/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+form input {
+    display: block;
+    margin: 0 0 20px 0;
+    padding: 10px 25px;
+    font-size: 17px;
     width: 50%;
+
 }
