@@ -5,13 +5,15 @@ header {
 .caixa {
   position: relative;
   width: 940px;
-  margin: 0 auto; /*centralizar*/
+  margin: 0 auto;
+  /*centralizar*/
 }
 
 nav {
   position: absolute;
   top: 110px;
-  right: 0; /*fica na posição 0 a direita da página, por causa do absolute*/
+  right: 0;
+  /*fica na posição 0 a direita da página, por causa do absolute*/
 }
 
 nav li {
@@ -24,7 +26,8 @@ nav a {
   color: #000000;
   font-weight: bold;
   font-size: 22px;
-  text-decoration: none; /* retira o sublinhado padrão nas palavras */
+  text-decoration: none;
+  /* retira o sublinhado padrão nas palavras */
 }
 
 nav a:hover {
@@ -45,8 +48,10 @@ nav a:hover {
   width: 30%;
   vertical-align: top;
   margin: 0 1.5%;
-  padding: 30px 20px; /*espaçamento interno para os lados/para cima*/
-  box-sizing: border-box; /*os 30% são definitivos, sempre a largura*/
+  padding: 30px 20px;
+  /*espaçamento interno para os lados/para cima*/
+  box-sizing: border-box;
+  /*os 30% são definitivos, sempre a largura*/
   /* border-color: ;
     border-width: 2px;
     border-style: solid; */
@@ -105,7 +110,7 @@ form {
 }
 
 form label,
-form p {
+form legend {
   display: block;
   font-size: 20px;
   margin: 0 0 10px 0;
@@ -119,6 +124,39 @@ form p {
   width: 50%;
 }
 
-.checkbox{
-    margin: 20px 0;
+.checkbox {
+  margin: 20px 0;
+}
+
+.enviar {
+  width: 40%;
+  padding: 15px 0;
+  background: #d46d4c;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+  border-style: none;
+  border-radius: 10px;
+  transition: 1s all;
+}
+
+.enviar:hover {
+  background: #fa9472;
+  transform: scale(1.1);
+}
+
+table {
+  margin: 20px 0 40px;
+}
+
+thead {
+  background: #555555;
+  color: white;
+  font-weight: bold;
+}
+
+td,
+th {
+  border: 1px solid #000000;
+  padding: 15px;
 }
