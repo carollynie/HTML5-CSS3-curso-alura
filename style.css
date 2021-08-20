@@ -1,3 +1,7 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 header {
   background-color: #bbbbbb;
 }
@@ -172,7 +176,8 @@ th {
   font-size: 2em;
   /* titulo com fonte duas vezes maior que a fonte básica */
   margin: 0 0 20px;
-  clear: left; /*limpa a influencia do float*/
+  clear: left;
+  /*limpa a influencia do float*/
 }
 
 .utensilios {
@@ -197,4 +202,14 @@ th {
 
 .imagembeneficios {
   width: 60%;
+}
+
+.mapa {
+  padding: 3em 0;
+  /* espaçamento proporcional ao tamanho da fonte do site */
+}
+
+.mapa p {
+  margin: 0 0 2em;
+  text-align: center;
 }
