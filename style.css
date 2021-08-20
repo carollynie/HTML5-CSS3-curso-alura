@@ -160,3 +160,41 @@ th {
   border: 1px solid #000000;
   padding: 15px;
 }
+
+/* CSS da página inicial */
+
+.banner {
+  width: 100%;
+}
+
+.titulo-principal {
+  text-align: center;
+  font-size: 2em;
+  /* titulo com fonte duas vezes maior que a fonte básica */
+  margin: 0 0 20px;
+  clear: left; /*limpa a influencia do float*/
+}
+
+.utensilios {
+  width: 150px;
+  float: left;
+  margin: 0 20px 20px 0;
+  /*em cima - direita - em baixo - esquerda*/
+}
+
+.principal p {
+  margin: 0 0 1em;
+  /*criando uma margem pra baixo proporcional ao tamanho da fonte entre cada parágrafo*/
+}
+
+.principal strong {
+  font-weight: bold;
+}
+
+.principal em {
+  font-style: italic;
+}
+
+.imagembeneficios {
+  width: 60%;
+}
