@@ -261,7 +261,7 @@ th {
   width: 60%;
   /* significa que do nosso bloco a lista ocupará 40% e a imagem 60% */
   box-shadow: 10px 10px 30px 2px #000000
-  /* adicionando sombra ao redor da imagem, é possível adicionar várias sombras de cores diferentes na mesma imagem 
+    /* adicionando sombra ao redor da imagem, é possível adicionar várias sombras de cores diferentes na mesma imagem 
   para a sombra ser interna, adicionamos o termo "inset" */
 
 }
@@ -270,4 +270,27 @@ th {
   width: 560px;
   margin: 2em auto;
   /* centraliza o vídeo */
+}
+
+@media screen and (max-width: 480px) {
+
+  .caixa,
+  .conteudo-principal,
+  .principal,
+  .missao,
+  .conteudo-beneficios,
+  .mapa-conteudo {
+    width: auto;
+  }
+  .video{
+    width: 50%;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    position: static
+  }
 }
